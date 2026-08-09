@@ -128,6 +128,7 @@ const server = new McpServer({
 server.registerTool(
     'send_system_notification',
     {
+        annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: false, openWorldHint: false },
         description: 'Send a local desktop notification on the host system.',
         inputSchema: {
             title: z.string().min(1).max(128).describe('Notification title.'),
@@ -165,6 +166,7 @@ server.registerTool(
 server.registerTool(
     'check_notification_support',
     {
+        annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
         description: 'Check whether the current system has a notification backend available for this MCP.',
         inputSchema: {},
     },
