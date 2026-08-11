@@ -122,7 +122,7 @@ const server = new McpServer({
     version: '1.0.0',
     title: 'System Notifications',
     description: 'Send local desktop notifications through the host operating system.',
-    icons: [{ src: 'https://raw.githubusercontent.com/andreasjhagen/Cynosure-MCPs/main/mcp-system-notifications/icon.png', mimeType: 'image/png' }],
+    icons: [{ src: 'https://unpkg.com/@cynosure-mcp/system-notifications@1.0.1/icon.png', mimeType: 'image/png' }],
 });
 
 server.registerTool(

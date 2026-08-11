@@ -1,7 +1,7 @@
 {
     "name": "@cynosure-mcp/system-notifications",
     "mcpName": "io.github.andreasjhagen/system-notifications",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "MCP server for sending local system notifications",
     "type": "module",
     "main": "dist/index.js",
