@@ -37,5 +37,13 @@
         "desktop",
         "system",
         "alert"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cynosure-MCP-Collection/mcp-system-notifications.git"
+    },
+    "homepage": "https://github.com/Cynosure-MCP-Collection/mcp-system-notifications#readme",
+    "bugs": {
+        "url": "https://github.com/Cynosure-MCP-Collection/mcp-system-notifications/issues"
+    }
 }
